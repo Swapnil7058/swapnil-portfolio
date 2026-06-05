@@ -8,10 +8,11 @@ import Hero from "./components/Hero";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-    </>
+    // <>
+    //   <Navbar />
+    //   <Hero />
+    // </>
+    <h1>Swapnil Dhotre</h1>
   );
 }
 
