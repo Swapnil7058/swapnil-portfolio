@@ -8,10 +8,11 @@ import Hero from "./components/Hero";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-    </>
+    <h1>MERN Stack Developer</h1>
+    // <>
+    //   <Navbar />
+    //   <Hero />
+    // </>
   );
 }
 
