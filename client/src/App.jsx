@@ -13,7 +13,11 @@ function App() {
     <h1>MERN Stack Developer</h1>
     {/* //   <Navbar /> */}
     {/* //   <Hero /> */}
+<<<<<<< Updated upstream
     <h1>About US</h1>
+=======
+    <h3>Contact Me</h3>
+>>>>>>> Stashed changes
     </>
   );
 }
