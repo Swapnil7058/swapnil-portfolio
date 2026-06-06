@@ -2,8 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="py-24">
-      <div className="container-custom mx-auto px-6">
+    <section id="about" className="relative overflow-hidden py-24">
+    <div className="absolute top-60 left-1/3 w-72 h-72 bg-cyan-500/20 blur-3xl rounded-full"></div>
+      {/* <div className=" absolute bottom-20 right-20 w-72 h-72 bg-emerald-500/20 blur-3xl rounded-full"></div> */}
+      <div className="container-custom mx-auto px-6 z-10 relative">
         <h2 className="text-4xl font-bold mb-12 text-center">About Me</h2>
 
         <div className="glass p-8">

@@ -36,7 +36,7 @@ const Navbar = () => {
               Skills
             </a>
 
-            <a href="#projects" className="hover:text-cyan-400 transition">
+            <a href="#project" className="hover:text-cyan-400 transition">
               Projects
             </a>
 
