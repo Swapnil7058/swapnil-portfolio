@@ -20,7 +20,7 @@ const Navbar = () => {
           {/* Logo */}
 
           <a href="#home" className="text-2xl font-bold text-cyan-400">
-            My Portfolio
+            Swapnil.dev
           </a>
 
           <nav className="hidden md:flex gap-8">
@@ -36,7 +36,11 @@ const Navbar = () => {
               Skills
             </a>
 
-            <a href="#project" className="hover:text-cyan-400 transition">
+            <a href="#experience" className="hover:text-cyan-400 transition">
+              Experience
+            </a>
+
+            <a href="#projects" className="hover:text-cyan-400 transition">
               Projects
             </a>
 
