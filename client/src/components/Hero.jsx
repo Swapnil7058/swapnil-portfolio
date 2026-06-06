@@ -1,12 +1,23 @@
 import React from "react";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center">
-      <div className="container-custom mx-auto px-6">
+    <section
+      id="home"
+      className=" relative overflow-hidden min-h-screen flex items-center pt-24"
+    >
+      <div className="absolute top-20 left-20 w-72 h-72 bg-cyan-500/20 blur-3xl rounded-full"></div>
+      <div className=" absolute bottom-20 right-20 w-72 h-72 bg-emerald-500/20 blur-3xl rounded-full"></div>
+      <div className="container-custom mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Left Side */}
-          <div>
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+          >
             <p className="text-cyan-400 font-medium mb-3">Hello, I'm</p>
 
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
@@ -14,7 +25,9 @@ const Hero = () => {
             </h1>
 
             <h2 className="text-2xl md:text-3xl text-slate-300 mt-4">
-              MERN Stack Developer
+              Building Scalable <br />
+              Full-Stack Applications <br />
+              with MERN Stack
             </h2>
 
             <p className="text-slate-400 mt-6 max-w-xl leading-relaxed">
@@ -50,26 +63,56 @@ const Hero = () => {
                 Download Resume
               </button>
             </div>
-          </div>
+
+            <div className="flex gap-5 mt-8">
+              <a href="#" target="_blank" rel="noreferrer">
+                <FaGithub
+                  size={26}
+                  className="cursor-pointer hover:text-cyan-400 transition"
+                />
+              </a>
+              <a href="#" target="_blank" rel="noreferrer">
+                <FaLinkedin
+                  size={26}
+                  className="cursor-pointer hover:text-cyan-400 transition"
+                />
+              </a>
+              <a href="#" target="_blank" rel="noreferrer">
+                <FaEnvelope
+                  size={26}
+                  className="cursor-pointer hover:text-cyan-400 transition"
+                />
+              </a>
+            </div>
+          </motion.div>
 
           {/* Right Side */}
-          <div className="flex justify-center border border-amber-600">
+          <div className="flex justify-center">
             <div
               className="
               glass
-              w-[320px]
-              h-[320px]
+              w-[380px]
+              h-[380px]
               flex
               items-center
               justify-center
               text-center
               "
             >
-              <div>
-                <h3 className="text-2xl font-bold">MERN Developer</h3>
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                whileHover={{ y: -10 }}
+                transition={{ duration: 0.8 }}
+              >
+                <h3 className="text-2xl font-bold">
+                  MERN Developer • React Developer
+                </h3>
 
-                <p className="text-slate-400 mt-3">React • Node • Express • MongoDB</p>
-              </div>
+                <p className="text-slate-400 mt-3">
+                  React • Node • Express • MongoDB
+                </p>
+              </motion.div>
             </div>
           </div>
         </div>
