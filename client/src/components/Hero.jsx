@@ -2,11 +2,11 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center border border-amber-900">
-      <div className="container-custom mx-auto px-6 border-red-700 border">
-        <div className="grid lg:grid-cols-2 gap-10 items-center border border-amber-900">
+    <section id="home" className="min-h-screen flex items-center">
+      <div className="container-custom mx-auto px-6">
+        <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Left Side */}
-          <div className="border border-amber-600">
+          <div>
             <p className="text-cyan-400 font-medium mb-3">Hello, I'm</p>
 
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
