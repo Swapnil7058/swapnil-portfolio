@@ -27,7 +27,11 @@ const experience = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-24">
+    <section id="experience" className="relative overflow-hidden py-24">
+
+    <div className=" absolute bottom-20 left-20 w-72 h-72 bg-emerald-500/20 blur-3xl rounded-full"></div>
+      <div className="absolute top-32 right-1/3 w-72 h-72 bg-cyan-500/20 blur-3xl rounded-full"></div>
+
       <div className="container-custom mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-4">Experience</h2>
 

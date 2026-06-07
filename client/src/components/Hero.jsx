@@ -51,33 +51,41 @@ const Hero = () => {
                 View Projects
               </button>
 
-              <button
-                className="
-                px-6 py-3
-                border border-cyan-500
-                rounded-lg
-                hover:bg-cyan-500/10
-                transition
-                "
+              <a
+                href="/Swapnil_Dhotre_Resume(1).pdf"
+                download
+                className=" px-6 py-3 border border-cyan-500 rounded-lg hover:bg-cyan-500/10 transition"
               >
                 Download Resume
-              </button>
+              </a>
             </div>
 
             <div className="flex gap-5 mt-8">
-              <a href="#" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/Swapnil7058"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub
                   size={26}
                   className="cursor-pointer hover:text-cyan-400 transition"
                 />
               </a>
-              <a href="#" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.linkedin.com/in/swapnil-dhotre-726b421a4/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedin
                   size={26}
                   className="cursor-pointer hover:text-cyan-400 transition"
                 />
               </a>
-              <a href="#" target="_blank" rel="noreferrer">
+              <a
+                href="mailto:swapnildhotre9767gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaEnvelope
                   size={26}
                   className="cursor-pointer hover:text-cyan-400 transition"
@@ -105,9 +113,14 @@ const Hero = () => {
                 whileHover={{ y: -10 }}
                 transition={{ duration: 0.8 }}
               >
-                <h3 className="text-2xl font-bold">
-                  MERN Developer • React Developer
+                <h3 className="text-2xl font-bold mb-10">
+                  Freelance MERN Developer
                 </h3>
+                {/* <br /> */}
+                <h3 className="text-2xl font-bold mb-10">
+                  🏆 BuildX India Hackathon Ranked Top 20
+                </h3>
+                {/* <br /> */}
 
                 <p className="text-slate-400 mt-3">
                   React • Node • Express • MongoDB

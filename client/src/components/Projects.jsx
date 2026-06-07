@@ -6,13 +6,13 @@ const project = [
   {
     title: "Alumni Connect Platform",
     description:
-      "Role-based platform connecting students and alumni with mentorship, networking, joob postings, reeaal-time chat, JWT authentication, and admin dashboards.",
+      "Role-based platform connecting students and alumni with mentorship, networking, job posting portal, real-time chat, JWT authentication, and admin dashboards.",
     tech: ["React", "Tailwind", "Flask", "MongoDB", "Socket.IO", "JWT"],
-    github: "#",
+    github: "https://github.com/Swapnil7058/Alumni-Connect-Platform.git",
     demo: "#",
   },
   {
-    title: "Moving Service Platform",
+    title: "Students Driven Moving and Transport Service Platform",
     description:
       "Full-stack management system for quotes, booking, workforce allocation, OTP verification and real-time move tracking.",
     tech: [
@@ -24,7 +24,7 @@ const project = [
       "Socket.IO",
       "JWT",
     ],
-    github: "#",
+    github: "https://github.com/Swapnil7058/Student-Driven-Moving-and-Transport-Service-Platform.git",
     demo: "#",
   },
 
@@ -33,14 +33,17 @@ const project = [
     description:
       "Recipe browsing application with 14,000+ Indian recipes, advanced search, filtering and optimized data rendering.",
     tech: ["React", "Node.js", "Express"],
-    github: "#",
+    github: "https://github.com/Swapnil7058/Food-Recipes-Explorer-Platform.git",
     demo: "#",
   },
 ];
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-24">
+    <section id="projects" className=" relative py-24">
+      <div className=" absolute top-16 right-20 w-72 h-72 bg-emerald-500/20 blur-3xl rounded-full"></div>
+      <div className="absolute bottom-16 left-0 w-72 h-72 bg-cyan-500/20 blur-3xl rounded-full"></div>
+
       <div className="container-custom mx-auto px6">
         <h2 className="text-4xl font-bold text-center mb-14">Projects</h2>
 
@@ -84,12 +87,12 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="
-                flex items-center gap-2
-                px-4 py-2
-                rounded-lg
-                border border-cyan-500
-                hover:bg-cyan-500/10
-                transition
+                  flex items-center gap-2
+                  px-4 py-2
+                  rounded-lg
+                  border border-cyan-500
+                  hover:bg-cyan-500/10
+                  transition
                 "
                 >
                   <FaGithub />
