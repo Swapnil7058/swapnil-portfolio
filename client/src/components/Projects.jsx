@@ -34,7 +34,7 @@ const project = [
       "Recipe browsing application with 14,000+ Indian recipes, advanced search, filtering and optimized data rendering.",
     tech: ["React", "Node.js", "Express"],
     github: "https://github.com/Swapnil7058/Food-Recipes-Explorer-Platform.git",
-    demo: "#",
+    demo: "https://food-recipes-explorer-platform.vercel.app/",
   },
 ];
 
