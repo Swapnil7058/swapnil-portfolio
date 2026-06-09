@@ -9,7 +9,7 @@ const project = [
       "Role-based platform connecting students and alumni with mentorship, networking, job posting portal, real-time chat, JWT authentication, and admin dashboards.",
     tech: ["React", "Tailwind", "Flask", "MongoDB", "Socket.IO", "JWT"],
     github: "https://github.com/Swapnil7058/Alumni-Connect-Platform.git",
-    demo: "#",
+    demo: "https://alumni-connect-platform-tzwq.vercel.app/",
   },
   {
     title: "Students Driven Moving and Transport Service Platform",
@@ -25,7 +25,7 @@ const project = [
       "JWT",
     ],
     github: "https://github.com/Swapnil7058/Student-Driven-Moving-and-Transport-Service-Platform.git",
-    demo: "#",
+    demo: "https://student-driven-moving-and-transport.vercel.app",
   },
 
   {
