@@ -38,7 +38,8 @@ const Hero = () => {
 
             {/* Buttons */}
             <div className="flex gap-4 mt-8">
-              <button
+              <a
+              href="#projects"
                 className="
                 px-6 py-3
                 bg-cyan-500
@@ -49,7 +50,7 @@ const Hero = () => {
                 "
               >
                 View Projects
-              </button>
+              </a>
 
               <a
                 href="/Swapnil_Dhotre_Resume(1).pdf"
