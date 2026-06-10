@@ -22,7 +22,7 @@ const skillCategories = [
   },
   {
     title: "Tools & Platforms",
-    skills: ["Git", "GitHub", "Postman", "VS Code"],
+    skills: ["Git", "GitHub", "Postman", "VS Code", "Render.com", "Vercel"],
   },
 ];
 const Skills = () => {
@@ -51,7 +51,7 @@ const Skills = () => {
               <ul className="space-y-3">
                 {category.skills.map((skill) => (
                   <li key={skill} className="text-slate-300">
-                    • {skill}
+                    {skill}
                   </li>
                 ))}
               </ul>
