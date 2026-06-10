@@ -25,7 +25,7 @@ const project = [
       "JWT",
     ],
     github: "https://github.com/Swapnil7058/Student-Driven-Moving-and-Transport-Service-Platform.git",
-    demo: "https://student-driven-moving-and-transport.vercel.app",
+    demo: "https://student-driven-moving-and-transport.vercel.app/",
   },
 
   {
